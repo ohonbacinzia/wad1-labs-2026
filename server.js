@@ -3,9 +3,15 @@
 import express from 'express';
 import logger from "./utils/logger.js";
 import routes from './routes.js'; 
-
+import { create } from 'express-handlebars';
 const app = express();
 const port = 3000;
+
+const handlebars = create({extname: '.hbs'});
+app.engine(".hbs", handlebars.engine);
+app.set("view engine", ".hbs");
+app.use(express.static("public"));
+
 
 app.use("/", routes);
 
