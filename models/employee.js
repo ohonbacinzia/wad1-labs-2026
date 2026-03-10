@@ -5,8 +5,8 @@ import JsonStore from './json-store.js';
 
 const appStore = {
 
-  store: new JsonStore('./models/employee.json', { employee: {} }),
-  collection: 'employee',
+  store: new JsonStore('./models/employees.json', { employees: {} }),
+  collection: 'employees',
 
 
   getempInfo() {
