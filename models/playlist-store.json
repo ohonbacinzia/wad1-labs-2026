@@ -3,46 +3,55 @@
     {
       "id": "01",
       "title": "Beethoven Sonatas",
+      "rating": 7,
       "songs": [
         {
           "id": "04",
           "title": "Piano Sonata No. 3",
+          "rating": 5,
           "artist": "Beethoven"
         },
         {
           "id": "05",
           "title": "Piano Sonata No. 7",
+          "rating": 3,
           "artist": "Beethoven"
         },
         {
           "id": "06",
           "title": "Piano Sonata No. 10",
+          "rating": 10,
           "artist": "Beethoven"
         },
         {
-          "id": "64a48998-b88a-4ec1-a709-3eb89a7968b9",
-          "title": "love me now",
-          "artist": "john legend"
+          "id": "99cf86b0-3784-4bf8-9998-5e3e86a4f8c1",
+          "title": "see me so",
+          "rating": 1,
+          "artist": "Beethoven"
         }
       ]
     },
     {
       "id": "02",
       "title": "Beethoven Concertos",
+      "rating": 9,
       "songs": [
         {
           "id": "07",
           "title": "Piano Concerto No. 0",
+          "rating": 2,
           "artist": "Beethoven"
         },
         {
           "id": "08",
           "title": "Piano Concerto No. 4",
+          "rating": 5,
           "artist": "Beethoven"
         },
         {
           "id": "09",
           "title": "Piano Concerto No. 6",
+          "rating": 6,
           "artist": "Beethoven"
         }
       ]
@@ -50,6 +59,13 @@
     {
       "id": "03",
       "title": "Beethoven Unfinished Symphonies",
+      "rating": 4,
+      "songs": []
+    },
+    {
+      "id": "a5032ad2-cbf4-4a97-913c-2b18e28ae5ba",
+      "title": "kgx",
+      "date": "2026-03-24T11:33:50.153Z",
       "songs": []
     }
   ]
